@@ -9,9 +9,51 @@ h1 {
     font-size: 36px;
     margin-top: 48px;
 }
-p {
-    font-size: 15px;
+
+/*div*/
+
+.TITLEHEADING,
+.BLOGENTRY,
+.MyName {
+    background-color: white;
+    width: 95%;
+    text-align: left;
+    margin-left: 8px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
 }
+.title-heading-div {
+    padding-left: 18px;
+    padding-right: 26px;
+}
+.PopularPosts {
+    text-align: left;
+}
+
+/*img*/
+
+img {
+    width: 100%;
+}
+.lo-ip-do {
+    width: 50px;
+}
+
+/*p*/
+.main-p {
+    margin-bottom: 60px;
+}
+p,
+.main-p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+.big-p {
+    font-size: 18px;
+}
+
+/*span*/
+
 span {
     color: white;
     background-color: black;
@@ -20,18 +62,19 @@ span {
     padding-left: 7px;
     padding-right: 7px;
 }
-.TITLEHEADING {
+.span2 {
+    color: gray;
     background-color: white;
-    width: 95%;
-    text-align: left;
-}
-img {
-    width: 100%;
-}
-.big-p {
     font-size: 18px;
 }
+
+/*button*/
+
 button {
+    margin-top: 15px;
     border: none;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    padding: 15px 25px;
+    background-color: white;
 }
