@@ -1,5 +1,7 @@
 * {
     font-family: "Raleway";
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: #f1f1f1;
@@ -8,17 +10,28 @@ body {
 h1 {
     font-size: 36px;
     margin-top: 48px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+.myname-h2 {
+    font-size: 20px;
 }
 
 /*div*/
 
 .TITLEHEADING,
 .BLOGENTRY,
-.MyName {
+.MyName,
+.PopularPosts,
+.Tags {
     background-color: white;
     width: 95%;
     text-align: left;
-    margin-left: 8px;
+    margin-left: 15px;
     margin-bottom: 40px;
     padding-bottom: 15px;
 }
@@ -26,8 +39,8 @@ h1 {
     padding-left: 18px;
     padding-right: 26px;
 }
-.PopularPosts {
-    text-align: left;
+.Tags {
+    border: 1px black solid;
 }
 
 /*img*/
@@ -48,9 +61,23 @@ p,
     font-size: 15px;
     line-height: 1.5;
 }
+p {
+    margin-bottom: 15px;
+}
 .big-p {
     font-size: 18px;
+    margin-bottom: 25px;
 }
+.tags-h-p {
+    font-size: 20px;
+    background-color: #f1f1f1;
+    padding: 20px 15px;
+}
+/* .Tags-p-main{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+} */
 
 /*span*/
 
@@ -77,4 +104,44 @@ button {
     font-size: 15px;
     padding: 15px 25px;
     background-color: white;
+}
+
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer {
+    background-color: #616161;
+    text-align: left;
+    width: 100%;
+}
+.footer-button-Previous {
+    color: #848484;
+    background-color: #444444;
+    border: none;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.footer-button-Previous:hover {
+    background-color: #848484;
+    color: #444444;
+}
+.footer-button-Next {
+    color: white;
+    background-color: black;
+    border: none;
+}
+.footer-button-Next:hover {
+    color: black;
+    background-color: lightgrey;
+}
+.footer-p {
+    padding: 30px 0px 50px 15px;
+    color: white;
+}
+a {
+    color: white;
 }
