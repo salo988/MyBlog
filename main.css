@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #f1f1f1;
     text-align: center;
@@ -11,27 +12,31 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
+
 h1 {
     font-size: 36px;
     margin-top: 48px;
     margin-bottom: 20px;
 }
+
 h2 {
     font-size: 24px;
     margin-top: 9px;
     margin-bottom: 13px;
 }
+
 .myname-h2 {
     font-size: 20px;
 }
+
 h4 {
     padding: 0;
 }
-.h4-commants {
-    color: white;
+.h4-comments {
+    color: black;
 }
 
 /*div*/
@@ -49,13 +54,16 @@ h4 {
 
     box-shadow: 0 5px 20px #b3b3b3;
 }
+
 .MyName {
     padding-bottom: 5px;
 }
+
 .title-heading-div {
     padding-left: 18px;
     padding-right: 26px;
 }
+
 .Lo-Ip-Do {
     display: flex;
     padding: 16px;
@@ -178,7 +186,7 @@ button:hover {
 .zero-button,
 .two-button {
     padding: 1px 8px;
-    background-color: white;
+    background-color: black;
     color: white;
     border: none;
     height: 25px;
@@ -189,10 +197,10 @@ button:hover {
 }
 
 .TITLEHEADING,
-.BLOGENTRY, 
-.MyName, 
+.BLOGENTRY,
+.MyName,
 .PopularPosts,
-.Tags{
+.Tags {
     margin: 40px auto;
 }
 
@@ -235,6 +243,13 @@ a {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 600px) {
+    .zero-button,
+    .two-button,
+    .h4-comments {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 990px) {
     .last {
@@ -246,7 +261,7 @@ a {
     .zero-button,
     .two-button {
         padding: 1px 8px;
-        background-color: rgb(34, 32, 32);
+        background-color: black;
         color: white;
         border: none;
         height: 25px;
@@ -258,7 +273,6 @@ a {
     .h4-commants {
         color: black;
     }
-    
 }
 @media only screen and (min-width: 990px) {
     .main-div {
