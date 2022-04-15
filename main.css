@@ -246,7 +246,7 @@ a {
     .zero-button,
     .two-button {
         padding: 1px 8px;
-        background-color: black;
+        background-color: rgb(34, 32, 32);
         color: white;
         border: none;
         height: 25px;
